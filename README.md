@@ -16,3 +16,6 @@ $gmx sham -f 2dproj.xvg -ls fel_sham.xpm -notim -ngrid 30 30 30
 
 The generated fel_sham.xpm file contains input data for the plot.
 The code will create an colored 3D overlay plot of the 3D minima, and the 2D contour plot at the bottom.
+
+Limitations and isntructions:
+We need to replace the color map, and data (xpm), and x-axis, y-axis values depending on our generated XPM file.
